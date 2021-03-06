@@ -65,6 +65,7 @@ int main() {
   cin >> n;
   int F[n]; // cannot initialize array with dynamic size, but you can create it
   // some compiler doesn't throw warning when we try to initialize dynamic-sized array, but it will not work
+
   for (int x:F) {
     cout << x << endl; // garbage value because we can't initialize the array earlier
   }
