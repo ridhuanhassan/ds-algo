@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2021-03-07T04:16:15.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.54.1 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36" etag="M27H71V5eIMvIoP7frdP" version="14.2.4" type="embed">
+<mxfile host="65bd71144e" modified="2021-03-07T04:31:16.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.54.1 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36" etag="froWQpARJUkTUSNBmgeP" version="14.2.4" type="embed">
     <diagram id="PqqC1vqv3EHPEW13wFfp" name="Page-1">
         <mxGraphModel dx="1086" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
@@ -189,6 +189,9 @@
                 </mxCell>
                 <mxCell id="60" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
                     <mxGeometry x="135" y="590" width="20" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="*declaration and initialization of array is done inside the stack frame of that particular function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="17.5" y="790" width="535" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
