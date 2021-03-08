@@ -27,28 +27,28 @@ int main() {
   cout << "A" << endl;
   cout << sizeof(A) << endl; // 20 bytes
   cout << A[1] << endl; // 15 
-  printf("%d\n", A[2]); // 25
+  printf("%lu\n", A[2]); // 25
 
   cout << "B" << endl;
   cout << sizeof(B) << endl; // 20 bytes
   cout << B[1] << endl; // 4
-  printf("%d\n", B[2]); // 6
+  printf("%lu\n", B[2]); // 6
 
 
   cout << "C" << endl;
   cout << sizeof(C) << endl; // 12 bytes
   cout << C[1] << endl; // 4
-  printf("%d\n", C[2]); // 9
+  printf("%lu\n", C[2]); // 9
 
   cout << "D" << endl;
   cout << sizeof(D) << endl; // 40 bytes
   cout << D[8] << endl; // 0
-  printf("%d\n", D[9]); // 0
+  printf("%lu\n", D[9]); // 0
 
   cout << "E" << endl;
   cout << sizeof(E) << endl; // 40 bytes
   cout << E[8] << endl; // 0
-  printf("%d\n", E[9]); // 0
+  printf("%lu\n", E[9]); // 0
 
   for (int i = 0; i < 10; i++) {
     cout << E[i] << endl; // 0
