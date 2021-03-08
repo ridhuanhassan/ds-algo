@@ -67,10 +67,10 @@ int main () {
     int color; // 4 bytes
   };
 
-  struct Card c;
-  c.face = 12; // Ace
-  c.shape = 0; // Spade
-  c.color = 0; // Black
+  struct Card cd;
+  cd.face = 12; // Ace
+  cd.shape = 0; // Spade
+  cd.color = 0; // Black
 
   // or, struct Card c = {12, 0, 0};
 
