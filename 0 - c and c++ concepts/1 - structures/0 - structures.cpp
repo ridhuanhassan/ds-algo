@@ -45,7 +45,7 @@ int main () {
     char address[50]; // 50 bytes
   };
 
-  struct Staff s;
+  struct Staff s; // weirdly enough sizeof(s) becomes 92!
   s.role = 10;
   s.name[0] = 'J';
   s.name[1] = 'o';
